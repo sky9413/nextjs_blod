@@ -1,7 +1,7 @@
 @servers(['web' => 'server.count01'])
 
 @setup
-$repository = 'git@skygithub.com:sky9413/nextjs_blod.git';
+$repository = 'git@skygithub:sky9413/nextjs_blod.git';
 $app_dir = '/opt/node/nextjs_blog';
 $docker_container = 'nextjs_blog'; // 修改為你實際的 Docker 容器名稱
 @endsetup
