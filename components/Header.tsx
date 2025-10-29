@@ -41,6 +41,14 @@ export default function Header() {
                   Blog
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/form-api-tutorial"
+                  className="hover:text-blue-200 transition-colors font-medium"
+                >
+                  Form API
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
